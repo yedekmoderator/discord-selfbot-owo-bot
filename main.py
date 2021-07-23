@@ -9,17 +9,9 @@ once=False
 wbm=[12,16]
 class bot:
   owoid=408785106942164992 #user id of the owo bot
-  channel=None
-  token="default"
-  if token=="default":
-    while True:
-      token=input("token: ")
-      if token == "":
-        print("token cannot be empty"):
-      else:
-        break
-  if channel==None:
-    channel=input("Channel ID: ")
+  channel=843053470876696627
+  token="token"
+  
   commands=[
     "owo hunt",
     "owo hunt",
